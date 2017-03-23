@@ -1,0 +1,24 @@
+{
+  "name": "kjv",
+  "version": "0.0.0",
+  "description": "CLI for searching and reading the KJV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farskipper/kjv.git"
+  },
+  "keywords": [
+    "kjv",
+    "bible",
+    "cli"
+  ],
+  "author": "farskipper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/farskipper/kjv/issues"
+  },
+  "homepage": "https://github.com/farskipper/kjv#readme"
+}

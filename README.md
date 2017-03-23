@@ -1,2 +1,2 @@
 # kjv
-CLI for searching &amp; reading the KJV
+CLI for searching and reading the KJV
