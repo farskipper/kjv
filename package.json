@@ -2,7 +2,16 @@
   "name": "kjv",
   "version": "0.0.0",
   "description": "CLI for searching and reading the KJV",
-  "main": "index.js",
+  "main": "src/index.js",
+  "bin": {
+    "kjv": "bin/kjv"
+  },
+  "files": [
+    "bin",
+    "json",
+    "src",
+    "yarn.lock"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +31,7 @@
   },
   "homepage": "https://github.com/farskipper/kjv#readme",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0"
   }
 }
