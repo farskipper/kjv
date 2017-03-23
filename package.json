@@ -13,7 +13,7 @@
     "yarn.lock"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/tests.js"
   },
   "repository": {
     "type": "git",
@@ -33,5 +33,8 @@
   "dependencies": {
     "lodash": "^4.17.4",
     "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
   }
 }
