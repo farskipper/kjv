@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/farskipper/kjv/issues"
   },
-  "homepage": "https://github.com/farskipper/kjv#readme"
+  "homepage": "https://github.com/farskipper/kjv#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
 }
