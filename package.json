@@ -1,19 +1,14 @@
 {
   "name": "kjv",
   "version": "0.0.0",
-  "description": "CLI for searching and reading the KJV",
+  "description": "Module to load verses from the King James Version of the Bible.",
   "main": "src/index.js",
-  "bin": {
-    "kjv": "bin/kjv"
-  },
   "files": [
-    "bin",
     "json",
-    "src",
-    "yarn.lock"
+    "src"
   ],
   "scripts": {
-    "test": "node src/tests.js"
+    "test": "standard && ava"
   },
   "repository": {
     "type": "git",
@@ -31,10 +26,10 @@
   },
   "homepage": "https://github.com/farskipper/kjv#readme",
   "dependencies": {
-    "lodash": "^4.17.4",
-    "minimist": "^1.2.0"
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "tape": "^4.6.3"
+    "ava": "^1.0.1",
+    "standard": "^12.0.1"
   }
 }

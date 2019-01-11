@@ -1,5 +1,5 @@
-var _ = require("lodash");
+var _ = require('lodash')
 
-module.exports = function(str){
-    return _.parseInt(str, 10) || 0;
-};
+module.exports = function (str) {
+  return _.parseInt(str, 10) || 0
+}
