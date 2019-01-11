@@ -1,7 +1,7 @@
 {
   "name": "kjv",
-  "version": "0.0.0",
-  "description": "Module to load verses from the King James Version of the Bible.",
+  "version": "1.0.0",
+  "description": "King James Version of the Holy Bible as JSON",
   "main": "src/index.js",
   "files": [
     "json",
@@ -17,7 +17,7 @@
   "keywords": [
     "kjv",
     "bible",
-    "cli"
+    "json"
   ],
   "author": "farskipper",
   "license": "MIT",
@@ -25,11 +25,9 @@
     "url": "https://github.com/farskipper/kjv/issues"
   },
   "homepage": "https://github.com/farskipper/kjv#readme",
-  "dependencies": {
-    "lodash": "^4.17.4"
-  },
   "devDependencies": {
     "ava": "^1.0.1",
+    "lodash": "^4.17.4",
     "standard": "^12.0.1"
   }
 }
